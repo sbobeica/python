@@ -1,0 +1,12 @@
+empty_bytes_array = bytearray()
+null_bytes_array = bytearray(11) #the array is initialized with 11 null elements
+int_array = bytearray((12, 78, 126, 22, 109, 55, 235))
+str_array = bytearray ('Trademark ®', 'utf-8')
+bytes_array = bytearray(b'Trademark \xc2\xae')
+print (empty_bytes_array)
+print(null_bytes_array)
+print(int_array)
+print(str_array)
+print(bytes_array)
+print(bytes_array.decode())
+print(str_array)
