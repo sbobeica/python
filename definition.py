@@ -27,3 +27,11 @@ print(alphabet.values())
 
 if __name__ == '__name__':
     print(alphabet)
+
+def f(a, L=[]):
+    L.append(a)
+    return L
+
+print(f(1))
+print(f(2))
+print(f(3))
